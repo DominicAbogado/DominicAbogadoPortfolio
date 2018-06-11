@@ -1,0 +1,24 @@
+body{
+    border:0;
+    margin:0;
+    padding:0;
+    background-color: #2F2F2F;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Questrial', sans-serif;
+    font-size: 24px;
+
+}
+#para1{
+    font-size: 16px;
+}
+.jumbotron{
+    height:200px;
+    color:#2F2F2F;
+    background-color:#ffffff
+
+}
+.rounded-circle{
+    height:100px;
+    width: 100px;
+}
