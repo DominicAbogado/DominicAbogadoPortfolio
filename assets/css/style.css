@@ -29,9 +29,18 @@ body{
 p{
     font-size: 16px;
 }
+.form-group{
+    border: 10px;
+}
+#photorow{
+    margin-bottom: 10px;
+}
 .rounded-circle{
     height:100px;
     width: 100px;
+}
+#linked{
+    color:#FDFDFD
 }
 .accordion {
     background-color: #eee;
