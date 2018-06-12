@@ -10,78 +10,104 @@
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css" />
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="/assets/javascript/logic.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
+    <div class="row">
+        <div class="col-md-7 background">
             <div class="col-md-12">
-                <div class="jumbotron jumbotron-fluid">
-                    <div class="container">
-                        <h1 class="display-4">Dominic Abogado
-                            <small>| Work in Progress</small>
-                        </h1>
-                        <p class="lead">Under Construction</p>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Dominic Abogado
+                            <small>| Under Construction</small>
+                        </h3>
+                        <span>
+                            <p>Web-Development | WarHammer | Working on It</span>
+                        <p id="timer"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 experience">
+                        <button class="accordion">Work Experience</button>
+                        <div class="panel">
+                            <div class="resume">
+                                <h4>2015</h4>
+                                <p>Jr. DEEP Program Coordinator | University of Toronto Engineering Outreach Office</p>
+                            </div>
+                            <div class="resume">
+                                <h4>2015 - Present</h4>
+                                <p>Administrative and Events Coordinator | University of Toronto Engineering Outreach Office</p>
+                            </div>
+                        </div>
+
+                        <button class="accordion">Education</button>
+                        <div class="panel">
+                            <div class="resume">
+                                <h4>2010 - 2015</h4>
+                                <p>UofT St. George | Geographic Information Systems | Human Geography</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <p id="para1">
-                    Lord Vader, this is an unexpected pleasure. We're honored by your presence. You may dispense with the pleasantries, Commander.
-                    I'm here to put you back on schedule.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p id="aboutme">Portfolio</p>
-                <div class="row" id="photorow">
-                    <!-- First of two columns -->
-                    <div class="col-md-4">
-                        <div class="photocontainer">
-                            <img src="/assets/images/rainBackground.jpg" alt="rain" class="rounded-circle">
-                            </a>
-                            <div class="desc">Hangman</div>
+        <div class="col-md-5 portfolio">
+            <p id="aboutme">Portfolio</p>
+            <div class="row" id="photorow">
+                <!-- First of two columns -->
+                <div class="col-md-6">
+                    <div class="photocontainer">
+                        <img src="/assets/images/rainBackground.jpg" alt="rain" class="rounded-circle">
+                        </a>
+                        <div class="desc">
+                            <a href="https://dominicabogado.github.io/hangman-game/" target="_blank">Hangman</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="photocontainer">
-                            <img src="/assets/images/starBackground.jpg" alt="stars" class="rounded-circle">
-                            </a>
-                            <div class="desc">RPG Game</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="photocontainer">
+                        <img src="/assets/images/starBackground.jpg" alt="stars" class="rounded-circle">
+                        </a>
+                        <div class="desc">
+                            <a href="https://dominicabogado.github.io/unit-4-game/" target="_blank">Crystal Counter</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="photocontainer">
-                            <img src="/assets/images/woodBackground.jpg" alt="stars" class="rounded-circle">
-                            </a>
-                            <div class="desc">Trivia</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="photocontainer">
+                        <img src="/assets/images/rainBackground.jpg" alt="stars" class="rounded-circle">
+                        </a>
+                        <div class="desc">
+                            <a href="https://dominicabogado.github.io/TriviaGame/" target="_blank">Trivia</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="photocontainer">
-                            <img src="/assets/images/rainBackground.jpg" alt="rain" class="rounded-circle">
-                            </a>
-                            <div class="desc">Giflix</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="photocontainer">
+                        <img src="/assets/images/rainBackground.jpg" alt="rain" class="rounded-circle">
+                        </a>
+                        <div class="desc">
+                            <a href="https://dominicabogado.github.io/giftastic/" target="_blank">Giflix</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="photocontainer">
-                            <img src="/assets/images/starBackground.jpg" alt="stars" class="rounded-circle">
-                            </a>
-                            <div class="desc">Multiplayer</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="photocontainer">
+                        <img src="/assets/images/starBackground.jpg" alt="stars" class="rounded-circle">
+                        </a>
+                        <div class="desc">
+                            <a href="https://dominicabogado.github.io/multiplayer_game/" target="_blank">Multiplayer</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="photocontainer">
-                            <img src="/assets/images/woodBackground.jpg" alt="stars" class="rounded-circle">
-                            </a>
-                            <div class="desc">GoalKeeper</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="photocontainer">
+                        <img src="/assets/images/rainBackground.jpg" alt="stars" class="rounded-circle">
+                        </a>
+                        <div class="desc">
+                            <a href="https://dominicabogado.github.io/goalkeeper/" target="_blank">GoalKeeper</a>
                         </div>
                     </div>
                 </div>

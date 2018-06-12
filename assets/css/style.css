@@ -1,24 +1,59 @@
 body{
-    border:0;
-    margin:0;
-    padding:0;
-    background-color: #2F2F2F;
+    background-image: url(../images/wood2Background.jpg);
     background-size: cover;
-    color: #ffffff;
+    color: #FDFDFD;
     font-family: 'Questrial', sans-serif;
     font-size: 24px;
-
-}
-#para1{
+    background-repeat:no-repeat;
+    background-attachment: fixed;
     font-size: 16px;
 }
-.jumbotron{
-    height:200px;
-    color:#2F2F2F;
-    background-color:#ffffff
+.background{
+    background-image: url(../images/wood2Background.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    left: 0;
 
+}
+.experience{
+    color: #2f2f2f;
+}
+.portfolio{
+    background-color: #FDFDFD;
+    color:#2F2F2F;
+    height: 800px;
+    right:0px;
+    overflow-y: scroll;
+}
+p{
+    font-size: 16px;
 }
 .rounded-circle{
     height:100px;
     width: 100px;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
 }
