@@ -22,9 +22,10 @@ body{
 .portfolio{
     background-color: #FDFDFD;
     color:#2F2F2F;
-    height: 800px;
+    height: 1000px;
     right:0px;
     overflow-y: scroll;
+
 }
 p{
     font-size: 16px;

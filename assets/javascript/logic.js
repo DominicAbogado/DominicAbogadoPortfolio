@@ -46,4 +46,9 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+$(".portfolio").hover(function() {
+    $(this).animate({"opacity": "1"},100);
+}, function() {
+    $(this).animate({opacity : 0.6},100)
+});
 });
