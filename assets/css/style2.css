@@ -1,0 +1,83 @@
+body{
+    background-color: #FFFFFF;
+    font-family: 'Questrial', sans-serif;
+    font-size: 24px;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    font-size: 16px;
+}
+.landingImage{
+    position: relative;
+    height:600px;
+    width:100%;
+}
+previewOne{
+    z-index:100;
+    position: absolute; 
+}
+
+.previewWork{
+    z-index: 99;
+    position: absolute; 
+    opacity: 0;
+}
+/* .previewUpdawg{
+    z-index: 99;
+    position: absolute; 
+    opacity: 0;
+}
+.previewGiflix{
+    z-index: 99;
+    position: absolute; 
+}
+.previewResume{
+    z-index: 99;
+}
+.previewBlog{
+    z-index: 99;
+} */
+.experience{
+    color: #2f2f2f;
+}
+.preview{
+    color:#2F2F2F;
+    right:0px;
+    font-size:24px;
+}
+img{
+    height:600px;
+    width:100%;
+}
+.nav{
+    text-align:center;
+    font-size:36px;
+}
+p{
+    font-size: 16px;
+}
+.form-group{
+    border: 10px;
+}
+#photorow{
+    margin-bottom: 10px;
+}
+.rounded-circle{
+    height:100px;
+    width: 100px;
+}
+#linked{
+    color:#FDFDFD
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
